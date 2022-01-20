@@ -11,7 +11,7 @@ const VIDEOS = [
     comments: 33,
     songTitle: "song-pedrito",
     albumCover: "",
-    src: "https://v16-webapp.tiktok.com/1d085d13150d5f43290fe00641769ebb/61e5ea39/video/tos/useast2a/tos-useast2a-pve-0068/22d38028952c46c9b64cd5890a4729b6/?a=1988&br=6682&bt=3341&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201171614080102230720350DF9AA18&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3Z4bjQ6ZjdrOTMzNzczM0ApPDdpPGk5ZGU5NzllZzRnNmdgc2YwcjRfc29gLS1kMTZzcy1jMS8vMzQtLzFfYTAyMTA6Yw%3D%3D&vl=&vr=",
+    src: "https://v16-webapp.tiktok.com/46754d584e8e56a9a48e946888bf15ac/61e909a7/video/tos/maliva/tos-maliva-ve-0068c799-us/798f2f0087a24cb1a89181bb647d6372/?a=1988&br=2588&bt=1294&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201200103530102230650220D179F72&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=Mzs7eTs6ZndnOTMzZzczNEApOTg2Ozo4N2U1NzYzZzU4Z2dmYTVlcjQwYjJgLS1kMS9zcy1iMF9hXmE0MDYuMC9fMWI6Yw%3D%3D&vl=&vr=",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const VIDEOS = [
     comments: 33,
     songTitle: "song-pedrito",
     albumCover: "",
-    src: "https://v16-webapp.tiktok.com/1d085d13150d5f43290fe00641769ebb/61e5ea39/video/tos/useast2a/tos-useast2a-pve-0068/22d38028952c46c9b64cd5890a4729b6/?a=1988&br=6682&bt=3341&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201171614080102230720350DF9AA18&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3Z4bjQ6ZjdrOTMzNzczM0ApPDdpPGk5ZGU5NzllZzRnNmdgc2YwcjRfc29gLS1kMTZzcy1jMS8vMzQtLzFfYTAyMTA6Yw%3D%3D&vl=&vr=",
+    src: "https://v16-webapp.tiktok.com/46754d584e8e56a9a48e946888bf15ac/61e909a7/video/tos/maliva/tos-maliva-ve-0068c799-us/798f2f0087a24cb1a89181bb647d6372/?a=1988&br=2588&bt=1294&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201200103530102230650220D179F72&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=Mzs7eTs6ZndnOTMzZzczNEApOTg2Ozo4N2U1NzYzZzU4Z2dmYTVlcjQwYjJgLS1kMS9zcy1iMF9hXmE0MDYuMC9fMWI6Yw%3D%3D&vl=&vr=",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const VIDEOS = [
     comments: 33,
     songTitle: "song-pedrito",
     albumCover: "",
-    src: "https://v16-webapp.tiktok.com/1d085d13150d5f43290fe00641769ebb/61e5ea39/video/tos/useast2a/tos-useast2a-pve-0068/22d38028952c46c9b64cd5890a4729b6/?a=1988&br=6682&bt=3341&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201171614080102230720350DF9AA18&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=M3Z4bjQ6ZjdrOTMzNzczM0ApPDdpPGk5ZGU5NzllZzRnNmdgc2YwcjRfc29gLS1kMTZzcy1jMS8vMzQtLzFfYTAyMTA6Yw%3D%3D&vl=&vr=",
+    src: "https://v16-webapp.tiktok.com/46754d584e8e56a9a48e946888bf15ac/61e909a7/video/tos/maliva/tos-maliva-ve-0068c799-us/798f2f0087a24cb1a89181bb647d6372/?a=1988&br=2588&bt=1294&cd=0%7C0%7C1&ch=0&cr=0&cs=0&cv=1&dr=0&ds=3&er=&ft=Yu12_FRTkag3-I&l=202201200103530102230650220D179F72&lr=tiktok_m&mime_type=video_mp4&net=0&pl=0&qs=0&rc=Mzs7eTs6ZndnOTMzZzczNEApOTg2Ozo4N2U1NzYzZzU4Z2dmYTVlcjQwYjJgLS1kMS9zcy1iMF9hXmE0MDYuMC9fMWI6Yw%3D%3D&vl=&vr=",
   },
 ];
 
