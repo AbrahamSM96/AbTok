@@ -1,0 +1,7 @@
+.feed {
+  scroll-snap-type: mandatory;
+}
+
+.item {
+  scroll-snap-align: center;
+}
