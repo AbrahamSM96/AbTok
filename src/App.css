@@ -4,6 +4,7 @@
   display: grid;
   place-content: center;
   overflow: hidden;
+  overflow: hidden;
 }
 
 main {
@@ -13,4 +14,5 @@ main {
   height: auto;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  width: 375px;
 }
