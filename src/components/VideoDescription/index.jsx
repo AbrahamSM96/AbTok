@@ -3,7 +3,7 @@ import AlbumDisk from "./AlbumDisk";
 import styles from "./styles.module.css";
 import SongTicker from "../SongTicker/index";
 export default function VideoDescription({
-  author = "@Abrahamsm",
+  username,
   description,
   albumCover,
   songTitle,
@@ -13,8 +13,8 @@ export default function VideoDescription({
       <div className={styles.textWrapper}>
         <section>
           <strong>
-            <a className={styles.author} href={`/user/${author}`}>
-              @{author}
+            <a className={styles.author} href={`/user/${username}`}>
+              @{username}
             </a>
           </strong>
         </section>
