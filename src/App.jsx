@@ -1,16 +1,17 @@
-import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import VideoPlayer from "./components/VideoPlayer/index.jsx";
 import FeedVideos from "./components/FeedVideos";
+import { Route, Router } from "wouter";
+import Upload from "./pages/Upload";
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="App">
       <main>
-        TikTok Clone
-        <FeedVideos />
+        <Route path="/">
+          <FeedVideos />
+        </Route>
+        <Route path="/upload">
+          <Upload />
+        </Route>
       </main>
     </div>
   );
