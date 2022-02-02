@@ -5,14 +5,13 @@ import VideoDescription from "../VideoDescription";
 import VideoPlayerActions from "./VideoPlayerActions";
 import useIntersectionVideoPlayer from "../../hooks/useIntersectionVideoPlayer";
 
-export default function VideoPlayer({
-  username,
+export default function VideoPlayer(props) {
+  const { username,
   albumCover,
   description,
   src,
   songTitle,
-  avatar,
-}) {
+  avatar} = props
   const video = useRef(null);
   const { handlePlay, playing } = useIntersectionVideoPlayer({ video });
 
@@ -31,12 +30,9 @@ export default function VideoPlayer({
         loop
       />
       <i className={playerClassName}></i>
-      <VideoPlayerActions avatar={avatar} username={username} />
+      <VideoPlayerActions {...props} />
       <VideoDescription
-        albumCover={albumCover}
-        username={username}
-        description={description}
-        songTitle={songTitle}
+        {...props}
       />
     </div>
   );
