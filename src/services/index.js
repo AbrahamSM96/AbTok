@@ -32,13 +32,18 @@ export const publishVideo = async ({ videoSrc, description }) => {
 };
 
 export const getVideos = async () => {
-  const { data, error } = await supabase.from("videos").select(`
+  const { data, error } = await supabase
+    .from("videos")
+    .select(
+      `
     *, users:user_id (
         avatar,
         username,
         id
         )
-  `);
+  `,
+    )
+    .order("created_at", { ascending: false });
 
   return [error, data];
 };
